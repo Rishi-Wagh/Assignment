@@ -1,0 +1,127 @@
+.pageBody-conatiner{
+ margin-top: 20px;
+
+}
+
+.body-title{
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.components-container{
+    display: flex;
+
+}
+
+.left-component{
+    width: fit-content;
+    border: 1px solid rgba(253, 111, 201, 0.838);
+    padding: 5px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.tab{
+    border: 1px solid rgba(253, 111, 201, 0.838);
+    margin: 7px 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 5px 5px 5px;
+}
+
+.tab-bottom{
+    padding: 0px 5px 5px 5px;
+}
+
+.room{
+    font-size: large;
+    padding: 2px;
+}
+
+.star{
+    padding: 2px;
+}
+
+.position{
+    margin-top: 2px;
+    margin-left: 5px;
+    color: pink;
+    font-size: medium;
+
+}
+
+.date{
+    font-size: small;
+    padding: 3px;
+}
+
+.right-component{
+    width: 70%;
+    
+}
+
+.comp-table{
+   width: auto;
+   border: 1px solid rgba(253, 111, 201, 0.838);
+   background-color: black;
+   border-radius: 10px;
+
+}
+
+.comp-title{
+    display: flex;
+    border-bottom: 1px solid rgba(253, 111, 201, 0.838);
+}
+
+.comp-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    display: flex;
+    border-bottom: 1px solid rgba(253, 111, 201, 0.838);
+}
+
+.field > div{
+    margin: 10px 90px 10px 10px;
+    font-size: 15px;
+    padding: 1px;
+}
+
+
+.displayTitle{
+   margin: 10px 135px 10px 10px; 
+   font-size: large;
+}
+
+.save-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.save-btn > button{
+    font-size: larger;
+    padding: 7px 20px;
+    border-radius: 10px;
+    background-color: rgba(253, 111, 201, 0.838);
+}
+
+.nav-page{
+    display: flex;
+    justify-content: center;
+}
+.nav-page > .circle{
+    font-size: small;
+    padding-bottom: 5px;
+    margin: 5px;
+}

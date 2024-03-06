@@ -1,0 +1,9 @@
+.page-one{
+    border: 1px solid rgb(255, 124, 207);
+    height: 85%;
+    width: 73%;
+    background-color: #0d0d0dbf;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 0px 43px -23px rgb(255, 124, 207);
+}

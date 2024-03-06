@@ -1,0 +1,71 @@
+.main{
+ width: 100%;
+ height: 100vh;
+}
+
+.main-body{
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    display: inline-flex;
+    flex-direction: row;
+    }
+    
+    .bg-shape1{
+      width: 520px;
+      height: 520px;
+      border-radius: 9999px;
+      position: absolute;
+      animation: one 45s linear infinite;
+    }
+    
+    .bg-shape2{
+      width: 550px;
+      height: 550px;
+      border-radius: 9999px;
+      position: absolute;
+      animation: two 43s linear infinite;
+    }
+    
+    @keyframes one {
+      0% { left: calc(50vw - 50px); top: -150px; }
+      25% { left: calc(101vw - 250px); top: calc(50vh - 100px); }
+      50% { left: calc(50vw - 100px); top: calc(100vh - 200px); }
+      75% { left: 0px; top: calc(45vh - 100px); }
+      100% { left: calc(40vw - 100px); top: -150px; }
+    }
+    
+    @keyframes two {
+      0% { left: calc(50vw - 100px); top: calc(100vh - 150px); }
+      25% { left: -150px; top: calc(50vh - 100px); }
+      50% { left: calc(0vw - 100px); top: -100px; }
+      75% { left: calc(100vw - 200px); top: calc(30vh - 100px); }
+      100% { left: calc(50vw - 100px); top: calc(110vh - 200px); }
+    }
+    
+    .opacity-50{
+      opacity: .5;
+    }
+    
+    .bg-blur{
+      filter: blur(90px);
+    }
+    
+    .bg-primary{
+      background-color: rgb(190, 59, 255);
+    }
+    
+    .bg-secondary{
+      background-color:rgb(83, 78, 255)
+    }
+    
+    .layout{
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+    }
